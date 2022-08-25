@@ -1,0 +1,303 @@
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    --color-orange-light: #ffedd5;
+    --color-gray: #d6d3d1;
+    --color-orange-bright: #f97316;
+    --color-gray-dark: #44403c;
+}
+
+.home {
+    background-image: url("landing-materials/hero.jpg");
+    height: 800px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.section {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+
+#header_logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: var(--color-gray-dark);
+}
+
+a:hover {
+    color: #78716c;
+}
+
+.mobile {
+    display: flex;
+    color: var(--color-gray-dark);
+}
+
+.mobile-number {
+    margin-left: 10px;
+}
+
+.home_title {
+    font-size: 60px;
+    font-weight: 500;
+    max-width: 50%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 300;
+    color: #57534e;
+}
+
+.home_text {
+    max-width: 40%;
+    margin-bottom: 50px;
+}
+
+.button {
+    background-color: var(--color-orange-bright);
+    color: #fafaf9;
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
+    border: 1px solid var(--color-orange-bright);
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #ea580c;
+}
+
+.profits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profit {
+    background-color: var(--color-gray);
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.title {
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.icon {
+    background-color: var(--color-orange-bright);
+    color: white;
+    font-size: 36px;
+    margin: 20px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    padding: 7px 5px 0px 5px;
+    border-radius: 7px;
+}
+
+.profit_title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.profit_text {
+    margin-bottom: 20px;
+    color: var(--color-gray-dark);
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.main-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#main-task_image {
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.main-task_title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.main-task_text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    color: var(--color-gray-dark);
+}
+
+.registration {
+    background-color: var(--color-orange-light);
+    padding-bottom: 100px;
+}
+
+.registration_title {
+    padding-bottom: 10px;
+}
+
+.registration_text {
+    text-align: center;
+}
+
+.registration_form {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.registration_form_input {
+    margin-right: 10px;
+    height: 60px;
+    border: 1px solid var(--color-gray);
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+.reviews {
+    background-color: #fafaf9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+
+.review_name {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.review {
+    border-bottom: 2px solid var(--color-gray);
+    padding: 30px;
+    max-width: 60%;
+    margin: auto;
+}
+
+.review_text {
+    color:#57534e;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.subscription-section {
+    display: flex;
+    justify-content: center;
+}
+
+.subscription {
+    padding-bottom: 100px;
+}
+
+.tariff {
+    border: 1px solid var(--color-gray);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tariff-time {
+    font-size: 18px;
+    color: var(--color-orange-bright);
+    margin-top: 10px;
+}
+
+.tariff-price {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.tariff_components {
+    margin-top: 15px;
+}
+
+.tariff_component {
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    font-size: 14px;
+    color: #78716c;
+}
+
+.icon-check {
+    color: #65a30d;
+    margin-right: 5px;
+}
+
+.tariff-button {
+    background-color: var(--color-orange-light);
+    border-radius: 10px;
+    border: none;
+    color: var(--color-orange-bright);
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.tariff-button:hover {
+    background-color: var(--color-orange-bright);
+    color: white;
+}
+
+.footer {
+    background-color: var(--color-gray);
+    color: #78716c;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.phone {
+    display: flex;
+}
+
+.icon-phone {
+    margin-right: 10px;
+}
+
+.footer-icon {
+    font-size: 24px;
+}
