@@ -20,11 +20,13 @@ html {
     position: relative;
 }
 
-.opacity {
+.opacity-container {
     position: absolute;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.539);
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.689);
 }
+
 .section {
     max-width: 1024px;
     width: 100%;
